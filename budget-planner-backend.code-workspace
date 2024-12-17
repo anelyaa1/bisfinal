@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../budget-planner-backend"
+		},
+		{
+			"path": "../frontend"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "frontend"
+	}
+}

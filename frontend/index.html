@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Planner</h1>
+
+        <!-- Форма для добавления транзакции -->
+        <form id="addTransactionForm">
+            <input type="text" id="description" placeholder="Transaction Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <input type="date" id="date" required>
+            <button type="submit">Add Transaction</button>
+        </form>
+
+        <!-- Таблица для отображения транзакций -->
+        <h2>Transactions</h2>
+        <table id="transactionTable">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="message"></div> <!-- Сообщение об ошибке или успехе -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
